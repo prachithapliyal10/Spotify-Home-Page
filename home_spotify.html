@@ -1,0 +1,226 @@
+<html>
+
+<head>
+    <style>
+        body{
+            margin: 0;
+        }
+        .home-page {
+            position: relative;
+        }
+
+        .header-container {
+            position: absolute;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            opacity: 0.9;
+            position: fixed;
+            top: 0;
+            z-index: 1;
+        }
+
+        .navigation-out {
+            width: 1140px;
+            height: 80px;
+            margin: 0 auto;
+            padding: 0 15px;
+            position: relative;
+        }
+
+        .navigation {
+            display: flex;
+            list-style-type: none;
+            font-size: 16px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-top: 28px;
+            margin-bottom: 28px;
+        }
+
+        .title {
+            position: absolute;
+            left: 0;
+            font-size: 30px;
+        }
+
+        .option {
+            padding-left: 34px;
+        }
+
+        .in {
+            border-left: 1px solid white;
+            margin-left: 34px;
+        }
+
+        /* .image-container {
+            max-width: 100%;
+            max-height: 713px;
+        } */
+        .image {
+            width: 100%;
+            height: 915px;
+        }
+
+        .body-text {
+            position: absolute;
+            top: 300px;
+            left: 530px;
+            text-align: center;
+            color: white;
+        }
+
+        .music {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .para {
+            font-size: 18px;
+            margin-top: 9px;
+            margin-bottom: 18px
+        }
+
+        .spotify-button {
+            font-size: 14px;
+            padding: 16px 48px 18px;
+            background: rgb(29, 185, 84);
+            border: rgb(29, 185, 84);
+            color: white;
+            font-weight: bold;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+
+        /* .footer-container {
+            position: relative;
+        }
+        .logo-img {
+            left: 150px;
+    position: absolute;
+    top: 65px;
+    
+    /* height: 60px;
+    width: 186px;
+        } */
+        .footer-container {
+            background: black;
+            height: 500px;
+        }
+
+        .footer-nav {
+            width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            padding-top: 80px;
+        }
+
+        .spotify-about {
+            display: flex;
+            width: 585px;
+            margin: 0 auto;
+            line-height: 40px;
+        }
+
+        .logo-img {
+            position: absolute;
+            top: 80px;
+        }
+
+        .foot {
+            padding-right: 70px;
+            margin-bottom: 0;
+            margin-top: 0;
+
+        }
+
+        dt {
+            font-size: 12px;
+            color: rgb(145, 148, 150);
+            font-weight: bold;
+
+        }
+
+        dd {
+            margin-left: 0;
+        }
+
+        dl {
+            font-size: 16px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="home-page">
+        <div class="main-container">
+            <div class="header-container">
+                <div class="navigation-out">
+                    <ul class="navigation">
+                        <li class="title">Spotify</li>
+                        <li class="option">Premium</li>
+                        <li class="option">Help</li>
+                        <li class="option">Download</li>
+                        <li class="option in">Sign up</li>
+                        <li class="option">Log in</li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="body-container">
+                <div class="image-container">
+                    <img class="image" src="cover.png" alt="spotify me">
+                </div>
+                <div class="body-text">
+                    <h1 class="music">Music for everyone</h1>
+                    <h4 class="para">Millions of songs. No credit card needed</h4>
+                    <button class="spotify-button">GET SPOTIFY FREE</button>
+                </div>
+            </div>
+            <div class="footer-container">
+
+                
+
+                    <div class="footer-nav">
+                        <dl class="foot">
+                            <dt><img class="logo-img" src="spotify-logo.png" alt="logo" height="60px" width="186">
+                            </dt>
+                        </dl>
+
+                        <div class="spotify-about">
+                            <dl class="foot">
+                                <dt>COMPANY</dt>
+                                <dd>About</dd>
+                                <dd>Jobs</dd>
+                                <dd>For the Record</dd>
+                            </dl>
+                            <dl class="foot">
+                                <dt>COMMUNICATION</dt>
+                                <dd>For Artists</dd>
+                                <dd>Developers</dd>
+                                <dd>Brands</dd>
+                                <dd>Investors</dd>
+                                <dd>Vendors</dd>
+                            </dl>
+                            <dl class="foot">
+                                <dt>USEFUL LINKS</dt>
+                                <dd>Help</dd>
+                                <dd>Web Player</dd>
+                                <dd>Free Mobile App</dd>
+                            </dl>
+                            <dl>
+                                <dd></dd>
+                            </dl>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
